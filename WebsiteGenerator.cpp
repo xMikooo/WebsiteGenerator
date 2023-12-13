@@ -131,12 +131,13 @@ int main(){
 	}
 	CustomizationOptions customizationOptions = CustomizationOptions(plik);
 	writeWebsite(customizationOptions);
+	plik.close();
 	
 	cout << "Wygenerowano strone internetową!" << endl;
 	cout << "Powstały dwa pliki: index.html oraz style.css" << endl;
 
 	system("PAUSE");
-	if (choice == 2) system("del /q WG-Temp.txt");
+	if (choice == 2) system("del /f /q WG-Temp.txt");
 	plik.close();
 
 	return 0;
