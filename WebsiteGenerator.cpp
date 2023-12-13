@@ -138,7 +138,6 @@ int main(){
 
 	system("PAUSE");
 	if (choice == 2) system("del /f /q WG-Temp.txt");
-	plik.close();
 
 	return 0;
 }
