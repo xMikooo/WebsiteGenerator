@@ -270,3 +270,54 @@ CustomizationOptions::CustomizationOptions(istream &strumien)
 	getline(strumien, footerText); //uzywamy getline bo zawartosc moze zawierac spacje
 
 }
+
+
+void CustomizationOptions::out() //funkcja debug do wypisywania wszystkich opcji
+{
+	cout << "Kolor tla: " << bgColor << endl;
+	cout << "Sciezka do obrazka tla: " << bgPath << endl;
+	cout << "Opcje tla: " << endl;
+	cout << "Vertical repeat: " << bgVerticalRepeat << endl;
+	cout << "Horizontal repeat: " << bgHorizontalRepeat << endl;
+	cout << "Stretch: " << bgStretch << endl;
+	cout << "Fixed: " << bgFixed << endl;
+	cout << "Nazwa strony: " << siteName << endl;
+	cout << "Rozmiar nazwy strony: " << nameSize << endl;
+	cout << "Kolor nazwy strony: " << nameColor << endl;
+	cout << "Liczba kolumn: " << colNum << endl;
+	cout << "Zawartosc kolumn: " << endl;
+	for (int i = 0; i < colNum; i++) {
+		cout << "Kolumna " << i + 1 << ": " << colContent[i] << endl;
+	}
+	cout << "Rozmiary czcionek w poszczegolnych kolumnach: " << endl;
+	for (int i = 0; i < colNum; i++) {
+		cout << "Kolumna " << i + 1 << ": " << colFontSize[i] << endl;
+	}
+	cout << "Kolory czcionek w poszczegolnych kolumnach: " << endl;
+	for (int i = 0; i < colNum; i++) {
+		cout << "Kolumna " << i + 1 << ": " << colFontColor[i] << endl;
+	}
+	cout << "Kolory tla kolumn: " << endl;
+	for (int i = 0; i < colNum; i++) {
+		cout << "Kolumna " << i + 1 << ": " << colBgColor[i] << endl;
+	}
+	cout << "Opcje kolumn: " << endl;
+	for (int i = 0; i < colNum; i++) {
+		cout << "Kolumna " << i + 1 << ": " << endl;
+		cout << "Vertical repeat: " << colVerticalRepeat[i] << endl;
+		cout << "Horizontal repeat: " << colHorizontalRepeat[i] << endl;
+		cout << "Stretch: " << colStretch[i] << endl;
+		cout << "Fixed: " << colFixed[i] << endl;
+		cout << "Promien zaokraglenia rog�w: " << colRoundedCornersRadius[i] << endl;
+		cout << " ---------------------------------" << endl;
+	}
+	cout << "Kolor tla stopki: " << footerBgColor << endl;
+	cout << "Sciezka do obrazka tla stopki: " << footerBgPath << endl;
+	cout << "Opcje tla stopki: " << endl;
+	cout << "Vertical repeat: " << footerBgVerticalRepeat << endl;
+	cout << "Horizontal repeat: " << footerBgHorizontalRepeat << endl;
+	cout << "Stretch: " << footerBgStretch << endl;
+	cout << "Fixed: " << footerBgFixed << endl;
+	cout << "Kolor czcionki stopki: " << footerFontColor << endl;
+	cout << "Rozmiar czcionki stopki: " << footerFontSize << endl;
+	cout << "Zawartosc stopki: " << footerText << endl;

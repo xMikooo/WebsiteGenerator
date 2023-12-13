@@ -41,4 +41,5 @@ public:
 	CustomizationOptions();
 	CustomizationOptions(std::istream&);
 
+	void out();
 };
