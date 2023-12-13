@@ -269,11 +269,11 @@ CustomizationOptions::CustomizationOptions(istream &strumien)
 	strumien.ignore(); //ignorujemy znak nowej linii aby getline dzialalo poprawnie
 	getline(strumien, footerText); //uzywamy getline bo zawartosc moze zawierac spacje
 
-	out();
+	//out();
 }
 
 
-void CustomizationOptions::out() //funkcja debug do wypisywania wszystkich opcji
+/*void CustomizationOptions::out() //funkcja debug do wypisywania wszystkich opcji
 {
 	cout << "Kolor tla: " << bgColor << endl;
 	cout << "Sciezka do obrazka tla: " << bgPath << endl;
@@ -322,3 +322,5 @@ void CustomizationOptions::out() //funkcja debug do wypisywania wszystkich opcji
 	cout << "Kolor czcionki stopki: " << footerFontColor << endl;
 	cout << "Rozmiar czcionki stopki: " << footerFontSize << endl;
 	cout << "Zawartosc stopki: " << footerText << endl;
+}
+*/
