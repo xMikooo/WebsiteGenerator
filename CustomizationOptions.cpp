@@ -269,6 +269,7 @@ CustomizationOptions::CustomizationOptions(istream &strumien)
 	strumien.ignore(); //ignorujemy znak nowej linii aby getline dzialalo poprawnie
 	getline(strumien, footerText); //uzywamy getline bo zawartosc moze zawierac spacje
 
+	out();
 }
 
 
