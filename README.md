@@ -1,7 +1,7 @@
 ## Członkowie zespołu
  - Filip Żołek - zapisywanie html/css do pliku, funkcja testowa
  - Wojciech Konowrocki - interpretacja wczytanych danych, generowanie CSS
- - Kamil Sabat - tworzenie pliku danych wpisanych ręcznie, generowanie CSS
+ - Kamil Sabat - tworzenie pliku danych wpisanych ręcznie, generowanie HTML
 
 ## WebsiteGenerator
 Program służy do generowania strony internetowej. 
