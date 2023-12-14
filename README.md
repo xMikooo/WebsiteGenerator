@@ -4,7 +4,8 @@
  - Kamil Sabat - tworzenie pliku danych wpisanych ręcznie, generowanie HTML
 
 ## Link do sprawozdania wideo
-https://youtu.be/QrC1uLhaePs
+https://youtu.be/goSP6C0wnks
+~~https://youtu.be/QrC1uLhaePs starsza dłuższa wersja~~
 
 ## WebsiteGenerator
 Program służy do generowania strony internetowej. 
