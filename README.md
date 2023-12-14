@@ -3,6 +3,9 @@
  - Wojciech Konowrocki - interpretacja wczytanych danych, generowanie CSS
  - Kamil Sabat - tworzenie pliku danych wpisanych ręcznie, generowanie HTML
 
+## Link do sprawozdania wideo
+https://youtu.be/QrC1uLhaePs
+
 ## WebsiteGenerator
 Program służy do generowania strony internetowej. 
 
