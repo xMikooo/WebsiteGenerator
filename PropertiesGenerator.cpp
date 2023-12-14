@@ -214,10 +214,11 @@ PropertiesGenerator::PropertiesGenerator()
 	cin.ignore();
 	getline(cin, option);
 	outProperties << option << endl;
+	outProperties.close();
 
 }
 
 PropertiesGenerator::~PropertiesGenerator()
 {
-	outProperties.close();
+	if (outProperties.is_open()) outProperties.close(); //zamykamy jeżeli jeszcze nie zostało zamknięte
 }
